@@ -11,4 +11,4 @@ for lines in infile:
     if re.findall('(.+)'+phrase+'(.+)', lines, re.MULTILINE):       #searches .txt document for key word/phrase
         print(lines)            #prints all lines which include phrase
 
-input('Press Enter to exit')        #prevents application from losing without input
+input('Press Enter to exit')        #prevents application from closing without input
